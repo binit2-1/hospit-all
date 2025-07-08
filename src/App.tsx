@@ -17,9 +17,6 @@ import {
   Building2
 } from 'lucide-react';
 
-// Import the logo image
-import hospitalLogo from '../public/images/image.png';
-
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeTab, setActiveTab] = useState('home');
@@ -47,7 +44,7 @@ function App() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <img src={hospitalLogo} alt="Hospit-All Logo" className="h-10 w-10 object-contain" />
+              <img src="/hospit-all/images/image.png" alt="Hospit-All Logo" className="h-10 w-10 object-contain" />
               <span className="font-bold text-xl text-gray-800">Hospit-All</span>
             </div>
 
